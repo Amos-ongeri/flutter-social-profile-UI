@@ -8,22 +8,7 @@ class SocialProfile extends StatefulWidget {
 }
 
 class _SocialProfileState extends State<SocialProfile> {
-  List<String> gridImages = [
-    'gridImages/I1-min.jpg',
-    'gridImages/I2-min.jpg',
-    'gridImages/I3-min.jpg',
-    'gridImages/I4-min.jpg',
-    'gridImages/I5-min.jpg',
-    'gridImages/I6-min.jpg',
-    'gridImages/I7-min.jpg',
-    'gridImages/I8-min.jpg',
-    'gridImages/I9-min.jpg',
-    'gridImages/I10-min.jpg',
-    'gridImages/I11-min.jpg',
-    'gridImages/I12-min.jpg',
-    'gridImages/I13-min.jpg',
-    'gridImages/I14-min.jpg',
-  ];
+  List<String> gridImages = ['gridImages/I1-min.jpg','gridImages/I2-min.jpg','gridImages/I3-min.jpg','gridImages/I4-min.jpg','gridImages/I5-min.jpg','gridImages/I6-min.jpg','gridImages/I7-min.jpg','gridImages/I8-min.jpg','gridImages/I9-min.jpg','gridImages/I10-min.jpg','gridImages/I11-min.jpg','gridImages/I12-min.jpg','gridImages/I13-min.jpg','gridImages/I14-min.jpg',];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
